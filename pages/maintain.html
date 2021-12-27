@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n.Long-404 not found</title>
+    <script src="https://kit.fontawesome.com/30c2b6d5d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/12colum.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        
+      
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col8 selfcenter">
+                    <div class="menu mt1">
+                        <ul>
+                            <li><a href="../index.html"><img src="../image/Home/galaxylogo.png"></a></li>
+                            <li><a href="./aboutUs.html">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Forums</a></li>
+                               
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col4 selfcenter">
+                    <nav class="menu mt1">
+                        <ul>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="maintain">
+        <div class="container">
+            <div class="row">
+                <img src="../image/maintain.png">
+            </div>
+        </div>
+        <p id="demo" style="text-align: center;"></p>
+        <script>
+            var countDownDate = new Date("Feb 1, 2022 00:00:00").getTime();
+            var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+ 
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+     
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+        </script>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col6">
+                    <a href="../index.html"><img class="ml2" src="../image/Home/logowhite.png"></a>
+                    <div class="menu mt1">
+                        <ul>
+                            <li><a href="./aboutUs.html">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Forums</a></li>                          
+                       </ul>
+                    </div>  
+                    <div>
+                        <p class="ml2 mt1">Copy noright by n.Long 2021</p>
+                    </div>
+                </div>  
+            </div>
+        </div>     
+    </section>
+</body>
+</html>

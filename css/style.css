@@ -1,0 +1,166 @@
+.home{
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    
+}
+.background{
+    width: 100vh;
+    height: 100vh;
+    margin-left: 100vh;     
+}
+.welcome{
+    position: absolute;
+    top: 40vh;
+    left: 30vh;
+}
+.enter{
+    position: absolute;
+    top: 50vh;
+    left: 40vh;
+}
+.welcome h1{
+    font-size: 50px;
+}
+.way{
+    height: 70px;
+}
+.enter h1{
+    font-size:40px ;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.menu li{
+    margin: 0 16px;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.menu img{
+    height: 30px;
+    width: 30px;
+}
+.menu li a:hover{
+    opacity: .8;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background: rgb(227, 221, 247);
+    box-shadow: 0 0.125rem 0.25rem rgb(44, 44, 41);
+    position: fixed;
+    
+}
+
+.banner{
+    background-image: url(../image/aboutUs/galaxy4.jpg);
+    min-height: 100vh;  
+    background-attachment: fixed;     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+}
+.banner {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    text-shadow:0 0.125rem 0.25rem rgb(189, 215, 245) ;
+    transition: all 3s ease-in-out;
+    
+}
+
+.banner:hover{
+    text-shadow:0 0.125rem 0.25rem rgb(255, 0, 0) ;
+    transform: scale(1.025);
+}
+.storyimg{
+    width: 400px;
+}
+.storyimg img{
+    width: 100%;
+}
+.story h1{
+    font-size: 48px;
+    padding: 32px 0;
+}
+.story p{
+    margin-top: 8px;
+    text-align: justify;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 16px;
+}
+.logo img{
+    width: 100%;
+}
+.why h1{
+    margin-top: 16px;
+}
+.why p{
+    margin-bottom: 16px;
+}
+.why{
+    
+    text-align: -webkit-center;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    
+}
+.icon img{
+    width: 100%;
+}
+.btour{
+    overflow: hidden;
+}
+.tourimg{
+    
+    height: 265px;
+}
+.tourimg img{
+    width: 100%;
+}
+.social a{
+    margin-left: 16px;
+    size: 25px;
+    color: rgb(213, 204, 243);;
+}
+.endimg{
+    width: 800px;
+}
+.endimg img{
+    width: 100%;
+}
+.footer{
+    
+    background: rgb(213, 204, 243);
+    padding:  20px 20px;
+    box-shadow: 0 0.125rem 0.25rem rgb(37, 37, 35);
+    
+}
+.footer img{
+    height: 30px;
+    width: 30px;
+}
+.footer a{
+    text-decoration: none;
+    
+}
+.maintain img{
+    width: 100vh;
+    height: 80vh;
+}
